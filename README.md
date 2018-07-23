@@ -22,7 +22,7 @@ npm run compile
 
 ## NPM
 ```javascript
-npm install vue-number-keyboard
+npm install vue-keyboard-number
 ```
 ## 依赖
 - VUE
