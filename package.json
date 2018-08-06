@@ -1,6 +1,6 @@
 {
 	"name": "vue-keyboard-number",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "'vue-number-keyboard'是一个基于VUE实现的加载提示组件，也可以作为组件。",
 	"main": "dist/vue-number-keyboard.js",
 	"unpkg": "dist/vue-number-keyboard.js",

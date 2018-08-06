@@ -22,7 +22,7 @@ npm run compile
 
 ## NPM
 ```javascript
-npm install vue-keyboard-number
+npm install vue-number-keyboard
 ```
 ## 依赖
 - VUE
@@ -31,8 +31,8 @@ npm install vue-keyboard-number
 作为插件
 ```javascript
 import Vue from 'vue'
-import numberKeyboard from '../dist/vue-number-keyboard.js'
-import "../dist/vue-number-keyboard.css"
+import numberKeyboard from 'vue-number-keyboard'
+import "vue-number-keyboard/dist/vue-number-keyboard.css"
 
 // VUE use
 Vue.use(numberKeyboard);
@@ -65,7 +65,6 @@ Vue.use(numberKeyboard);
 
 ![image](https://note.youdao.com/yws/public/resource/b2a61ad71011584a10dcc60987acf09a/xmlnote/A830BE497BE140959B3D210744485B87/6125)
 ###### 3. 密码输入（数字乱序）
-网络请求超时，轻触自动刷新。默认实例方法有三个参数，也可以一个都不穿。默认三个参数：isShowMask = true, autoRefresh=true, indicatorText="网络请求超时啦，轻触自动刷新"
 
 ```html
 <number-keyboard :isInteger="true" :disorder="true" v-model="isShowPasswordKeyboard" @keyDown="passwordInput" @delete="password ? (validateCode = password.substring(0, password.length - 1)) : ''"></number-keyboard>
