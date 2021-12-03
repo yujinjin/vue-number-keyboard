@@ -6,3 +6,5 @@ node_modules/
 vue.config.js
 babel.config.js
 *.map
+.env.demo
+.env.lib

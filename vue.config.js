@@ -1,5 +1,3 @@
-// const fs = require("fs-extra");
-console.info(process.env.NODE_ENV, ">>>>>>>>>>>>>>>>");
 module.exports = {
     publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
     outputDir: process.env.VUE_APP_ENV === "lib" ? "dist" : "demo/build",
